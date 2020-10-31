@@ -2,30 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <script src="js.js"></script> -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <link rel="stylesheet" href="./jqueryplugins/style.css">
 </head>
 
 <body>
-    <!-- 
-    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-        alt="Image To Zoom" class="example"> -->
+    <img src="./jqueryplugins/pic.jpg" alt="Image To Zoom" class="block__pic">
 
-    <div class="img-zoom-container">
-        <img id="myimage"
-            src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-            width="300" height="240" alt="Girl">
-        <div id="myresult" class="img-zoom-result"></div>
-    </div>
-    <script>
-        imageZoom("myimage", "myresult");
-    </script>
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+        crossorigin="anonymous"></script>
+    <script src="./jqueryplugins/zoomsl.js"></script>
+    <script src="./jqueryplugins/script.js"></script>
 </body>
 
 </html>
